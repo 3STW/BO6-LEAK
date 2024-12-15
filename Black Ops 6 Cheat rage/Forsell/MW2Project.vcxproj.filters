@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Minhook">
+      <UniqueIdentifier>{0392ec28-5440-4ac6-9ceb-35c9a34c9fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{9505adfd-ab19-43d3-a18a-2f18dbc7b60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{e7cf6cee-3b8a-44a8-99ae-1ec20c94c3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aim/Esp">
+      <UniqueIdentifier>{98755c3e-1186-471a-a8c0-6947c1bbaee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header\Hooks">
+      <UniqueIdentifier>{a95730df-e420-417f-96da-05c60c6ab788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{7730d9dd-537e-4210-b20e-5f14da3ecd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{dc6cc0d2-2ba7-4e3e-abcc-6a01ae594214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\input">
+      <UniqueIdentifier>{c15ae700-0e70-425d-83c3-651024ecc317}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="minhook\MinHook.h">
+      <Filter>Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LazyImporter.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunction.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="game_struct.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ModernWarfare3.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="CLActiveClient.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Aim/Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_imgui.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Aim/Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="input_controls.h">
+      <Filter>utilities\input</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_shared.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinAnti.h">
+      <Filter>Aim/Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Header\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="soundeffect.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="fifo_map.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_custom.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_settings.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Hookk.h">
+      <Filter>Header\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmainn.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui_ShaderBlobs.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="menufunctions.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="custom.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="font2.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FONT.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="gangshit.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="mem2.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IconFontAwesome.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="New.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="hashes.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="blur.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LN.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="etc_element.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="velocitymanager.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\Etherium Menu dx12\Etherium Menu dx12\examples\example_win32_directx12\main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="color_t.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFunction.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="entities.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CLActiveClient.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Aim/Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_imgui.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Aim/Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="input_controls.cpp">
+      <Filter>utilities\input</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_shared.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinAnti.cpp">
+      <Filter>Aim/Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Header\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmainn.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui_ShaderBlobs.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="menufunctions.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="mem2.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="sounds.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="etc_element.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofcall.asm">
+      <Filter>utilities</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
